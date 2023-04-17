@@ -1,0 +1,215 @@
+.navbar {
+  background-color: white;
+  padding: 10px 0;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9);
+}
+
+.navbar-brand {
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.hero {
+  background-image: url("https://www.newegg.com/insider/wp-content/uploads/2021/11/Cooler-loop.png");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.scroll-down {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+}
+
+.arrow-down {
+  width: 24px;
+  height: 24px;
+  border-style: solid;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  margin-left: 6px;
+  color: #fff;
+}
+
+span {
+  display: inline-block;
+  font-size: 20px;
+  font-weight: bold;
+  color: #fff;
+  text-transform: uppercase;
+  margin-right: 10px;
+}
+
+.computer-images {
+  max-width: 80vw;
+}
+
+.computer-images1 {
+  max-width: 80vw;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow:
+    0 0 10px rgba(0, 0, 0, 0.8),
+    0 0 20px rgba(0, 0, 0, 0.2);
+  height: 600px;
+}
+
+.container {
+  text-align: justify;
+  text-align-last: center;
+  line-height: 200%;
+}
+
+h1 {
+  text-align: center;
+  font-weight: bold;
+}
+
+p {
+  text-align: justify;
+  text-align-last: center;
+  line-height: 200%;
+}
+
+.container img {
+  display: inline-block;
+}
+
+
+@media (min-width: 320px) {
+  .hero {
+    background-size: 400%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("https://www.newegg.com/insider/wp-content/uploads/2021/11/Cooler-loop.png");
+  }
+
+  .computer-images {
+    max-width: 80vw;
+  }
+
+  .computer-images1 {
+    max-width: 80vw;
+  }
+
+  .container {
+    height: auto;
+  }
+
+  .container img {
+    display: block;
+  }
+
+  h1,
+  p {
+    text-align: center;
+  }
+}
+
+
+@media (min-width: 768px) {
+  .hero {
+    background-size: 166%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("https://www.newegg.com/insider/wp-content/uploads/2021/11/Cooler-loop.png");
+  }
+
+  .computer-images {
+    max-width: 20vw;
+  }
+
+  .computer-images1 {
+    max-width: 20vw;
+  }
+
+  .container {
+    height: auto;
+  }
+
+  .container img {
+    display: block;
+    margin: auto;
+    max-width: 50%;
+  }
+  
+
+  h1,
+  p {
+    text-align: justify;
+  }
+}
+
+
+@media (min-width: 1024px) {
+  li {
+    font-size: 15px;
+    font-weight: bold;
+
+  }
+
+  .hero {
+    background-size: 166%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("https://www.newegg.com/insider/wp-content/uploads/2021/11/Cooler-loop.png");
+  }
+
+  .computer-images {
+    max-width: 35vw;
+    align-items: center;
+  }
+
+  .computer-images1 {
+    max-width: 35vw;
+    align-items: center;
+  }
+
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .container img {
+    display: center;
+    margin: auto;
+    max-width: 100%; 
+  }
+
+  h1,
+  p {
+    text-align: center;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
